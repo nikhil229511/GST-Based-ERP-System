@@ -1,0 +1,1228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F229979-0FEB-4960-A6CD-6914A1374187}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InventoryManagementSystem</RootNamespace>
+    <AssemblyName>InventoryManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>InventoryManagementSystem.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FoxLearn.License">
+      <HintPath>..\..\..\..\FoxLearn.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrandMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrandMaster.Designer.cs">
+      <DependentUpon>BrandMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashTransaction.Designer.cs">
+      <DependentUpon>CashTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryMaster.Designer.cs">
+      <DependentUpon>CategoryMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerAccount.Designer.cs">
+      <DependentUpon>CustomerAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\CustomerPaymentEntries.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerPaymentEntries.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\CustomerSalesEntries.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerSalesEntries.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\ListAllCreditors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListAllCreditors.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\ListAllDebtors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListAllDebtors.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\Sales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesComboBrand.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesComboBrand.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesComboCategory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesComboCategory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesComboCustomerName.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesComboCustomerName.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesComboItem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesComboItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesCustomerwiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesCustomerwiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesReturnCustomerwiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReturnCustomerwiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SupplierPurchaseEntries.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierPurchaseEntries.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SupplierReceiptEntries.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierReceiptEntries.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPurchaseInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPurchaseInvoice.Designer.cs">
+      <DependentUpon>PrintPurchaseInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPurchaseReturnInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPurchaseReturnInvoice.Designer.cs">
+      <DependentUpon>PrintPurchaseReturnInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSalesInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintSalesInvoice.Designer.cs">
+      <DependentUpon>PrintSalesInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSalesReturnInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintSalesReturnInvoice.Designer.cs">
+      <DependentUpon>PrintSalesReturnInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salesNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesNew.Designer.cs">
+      <DependentUpon>salesNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMaster.Designer.cs">
+      <DependentUpon>CustomerMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\BrandMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BrandMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\CategoryComboBrand.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoryComboBrand.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\CategoryMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoryMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\CustomerMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\DimensionMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DimensionMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\ItemMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\ItemMasterCategoryCombo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemMasterCategoryCombo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\ItemMasterComboBrand.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemMasterComboBrand.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\ItemwiseStock.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemwiseStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\LoginDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\Purchase.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Purchase.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseComboBrand.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseComboBrand.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseComboCategory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseComboCategory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseComboItem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseComboItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseComboSupplier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseComboSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseDatewiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseDatewiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseInvoicewiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseInvoicewiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseReturn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReturn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseReturnComboBrand.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReturnComboBrand.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseReturnComboCategory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReturnComboCategory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseReturnComboItem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReturnComboItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseReturnComboSupplier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReturnComboSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseReturnDatewiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReturnDatewiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseReturnInvoicewiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReturnInvoicewiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseReturnSupplierwiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseReturnSupplierwiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\PurchaseSupplierwiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseSupplierwiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesDatewiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesDatewiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesInvoicewiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesInvoicewiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesReturn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReturn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesReturnComboBrand.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReturnComboBrand.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesReturnComboCategory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReturnComboCategory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesReturnComboItem.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReturnComboItem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesReturnDatewiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReturnDatewiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SalesReturnInvoicewiseRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesReturnInvoicewiseRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatasetList\SupplierMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="ItemMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemMaster.Designer.cs">
+      <DependentUpon>ItemMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemwiseStockDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemwiseStockDetail.Designer.cs">
+      <DependentUpon>ItemwiseStockDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainTerminal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainTerminal.Designer.cs">
+      <DependentUpon>MainTerminal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.cs">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReportDatewise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReportDatewise.Designer.cs">
+      <DependentUpon>PurchaseReportDatewise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReportInvoicewise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReportInvoicewise.Designer.cs">
+      <DependentUpon>PurchaseReportInvoicewise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReportSupplierwise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReportSupplierwise.Designer.cs">
+      <DependentUpon>PurchaseReportSupplierwise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReturn.Designer.cs">
+      <DependentUpon>PurchaseReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReturnReportDatewise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReturnReportDatewise.Designer.cs">
+      <DependentUpon>PurchaseReturnReportDatewise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReturnReportInvoicewise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReturnReportInvoicewise.Designer.cs">
+      <DependentUpon>PurchaseReturnReportInvoicewise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseReturnReportSupplierwise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseReturnReportSupplierwise.Designer.cs">
+      <DependentUpon>PurchaseReturnReportSupplierwise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReportCustomerwise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReportCustomerwise.Designer.cs">
+      <DependentUpon>SalesReportCustomerwise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReportDatewise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReportDatewise.Designer.cs">
+      <DependentUpon>SalesReportDatewise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReportInvoicewise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReportInvoicewise.Designer.cs">
+      <DependentUpon>SalesReportInvoicewise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReturn.Designer.cs">
+      <DependentUpon>SalesReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReturnCustomerwise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReturnCustomerwise.Designer.cs">
+      <DependentUpon>SalesReturnCustomerwise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReturnReportDatewise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReturnReportDatewise.Designer.cs">
+      <DependentUpon>SalesReturnReportDatewise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReturnReportInvociewise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReturnReportInvociewise.Designer.cs">
+      <DependentUpon>SalesReturnReportInvociewise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShortcutKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShortcutKeys.Designer.cs">
+      <DependentUpon>ShortcutKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUPERAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUPERAbout.Designer.cs">
+      <DependentUpon>SUPERAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUPERGenerate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUPERGenerate.Designer.cs">
+      <DependentUpon>SUPERGenerate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SUPERMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUPERMain.Designer.cs">
+      <DependentUpon>SUPERMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierAccount.Designer.cs">
+      <DependentUpon>SupplierAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierMaster.Designer.cs">
+      <DependentUpon>SupplierMaster.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrandMaster.resx">
+      <DependentUpon>BrandMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashTransaction.resx">
+      <DependentUpon>CashTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryMaster.resx">
+      <DependentUpon>CategoryMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerAccount.resx">
+      <DependentUpon>CustomerAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPurchaseInvoice.resx">
+      <DependentUpon>PrintPurchaseInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPurchaseReturnInvoice.resx">
+      <DependentUpon>PrintPurchaseReturnInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintSalesInvoice.resx">
+      <DependentUpon>PrintSalesInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintSalesReturnInvoice.resx">
+      <DependentUpon>PrintSalesReturnInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PurchasePrintInvoice.rdlc" />
+    <EmbeddedResource Include="Reports\PurchaseReturnPrintInvoice.rdlc" />
+    <EmbeddedResource Include="Reports\SalesCustomerwise.rdlc" />
+    <EmbeddedResource Include="Reports\SalesPrintInvoice.rdlc" />
+    <EmbeddedResource Include="Reports\SalesReturnCustomerwise.rdlc" />
+    <EmbeddedResource Include="Reports\SalesReturnPrintInvoice.rdlc" />
+    <EmbeddedResource Include="salesNew.resx">
+      <DependentUpon>salesNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerMaster.resx">
+      <DependentUpon>CustomerMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemMaster.resx">
+      <DependentUpon>ItemMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemwiseStockDetail.resx">
+      <DependentUpon>ItemwiseStockDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainTerminal.resx">
+      <DependentUpon>MainTerminal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReportDatewise.resx">
+      <DependentUpon>PurchaseReportDatewise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReportInvoicewise.resx">
+      <DependentUpon>PurchaseReportInvoicewise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReportSupplierwise.resx">
+      <DependentUpon>PurchaseReportSupplierwise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReturn.resx">
+      <DependentUpon>PurchaseReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReturnReportDatewise.resx">
+      <DependentUpon>PurchaseReturnReportDatewise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReturnReportInvoicewise.resx">
+      <DependentUpon>PurchaseReturnReportInvoicewise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseReturnReportSupplierwise.resx">
+      <DependentUpon>PurchaseReturnReportSupplierwise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ItemWiseStock.rdlc" />
+    <EmbeddedResource Include="Reports\PurchaseDatewise.rdlc" />
+    <EmbeddedResource Include="Reports\PurchaseReturnDatewise.rdlc" />
+    <EmbeddedResource Include="Reports\PurchaseReturnSupplierwise.rdlc" />
+    <EmbeddedResource Include="Reports\PurchaseSupplierwise.rdlc" />
+    <EmbeddedResource Include="Reports\SalesDatewise.rdlc" />
+    <EmbeddedResource Include="Reports\SalesReturnDatewise.rdlc" />
+    <EmbeddedResource Include="SalesReportCustomerwise.resx">
+      <DependentUpon>SalesReportCustomerwise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReportDatewise.resx">
+      <DependentUpon>SalesReportDatewise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReportInvoicewise.resx">
+      <DependentUpon>SalesReportInvoicewise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReturn.resx">
+      <DependentUpon>SalesReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReturnCustomerwise.resx">
+      <DependentUpon>SalesReturnCustomerwise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReturnReportDatewise.resx">
+      <DependentUpon>SalesReturnReportDatewise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReturnReportInvociewise.resx">
+      <DependentUpon>SalesReturnReportInvociewise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShortcutKeys.resx">
+      <DependentUpon>ShortcutKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUPERAbout.resx">
+      <DependentUpon>SUPERAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUPERGenerate.resx">
+      <DependentUpon>SUPERGenerate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUPERMain.resx">
+      <DependentUpon>SUPERMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierAccount.resx">
+      <DependentUpon>SupplierAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierMaster.resx">
+      <DependentUpon>SupplierMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DatasetList\BrandMaster.xsc">
+      <DependentUpon>BrandMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\BrandMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BrandMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\BrandMaster.xss">
+      <DependentUpon>BrandMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CategoryComboBrand.xsc">
+      <DependentUpon>CategoryComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CategoryComboBrand.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CategoryComboBrand.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\CategoryComboBrand.xss">
+      <DependentUpon>CategoryComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CategoryMaster.xsc">
+      <DependentUpon>CategoryMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CategoryMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CategoryMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\CategoryMaster.xss">
+      <DependentUpon>CategoryMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CustomerMaster.xsc">
+      <DependentUpon>CustomerMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CustomerMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\CustomerMaster.xss">
+      <DependentUpon>CustomerMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CustomerPaymentEntries.xsc">
+      <DependentUpon>CustomerPaymentEntries.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CustomerPaymentEntries.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerPaymentEntries.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\CustomerPaymentEntries.xss">
+      <DependentUpon>CustomerPaymentEntries.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CustomerSalesEntries.xsc">
+      <DependentUpon>CustomerSalesEntries.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\CustomerSalesEntries.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerSalesEntries.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\CustomerSalesEntries.xss">
+      <DependentUpon>CustomerSalesEntries.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\DimensionMaster.xsc">
+      <DependentUpon>DimensionMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\DimensionMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DimensionMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\DimensionMaster.xss">
+      <DependentUpon>DimensionMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ItemMaster.xsc">
+      <DependentUpon>ItemMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ItemMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\ItemMaster.xss">
+      <DependentUpon>ItemMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ItemMasterCategoryCombo.xsc">
+      <DependentUpon>ItemMasterCategoryCombo.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ItemMasterCategoryCombo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemMasterCategoryCombo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\ItemMasterCategoryCombo.xss">
+      <DependentUpon>ItemMasterCategoryCombo.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ItemMasterComboBrand.xsc">
+      <DependentUpon>ItemMasterComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ItemMasterComboBrand.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemMasterComboBrand.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\ItemMasterComboBrand.xss">
+      <DependentUpon>ItemMasterComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ItemwiseStock.xsc">
+      <DependentUpon>ItemwiseStock.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ItemwiseStock.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemwiseStock.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\ItemwiseStock.xss">
+      <DependentUpon>ItemwiseStock.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ListAllCreditors.xsc">
+      <DependentUpon>ListAllCreditors.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ListAllCreditors.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListAllCreditors.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\ListAllCreditors.xss">
+      <DependentUpon>ListAllCreditors.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ListAllDebtors.xsc">
+      <DependentUpon>ListAllDebtors.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\ListAllDebtors.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListAllDebtors.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\ListAllDebtors.xss">
+      <DependentUpon>ListAllDebtors.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\LoginDataset.xsc">
+      <DependentUpon>LoginDataset.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\LoginDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginDataset.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\LoginDataset.xss">
+      <DependentUpon>LoginDataset.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\Purchase.xsc">
+      <DependentUpon>Purchase.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\Purchase.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Purchase.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\Purchase.xss">
+      <DependentUpon>Purchase.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseComboBrand.xsc">
+      <DependentUpon>PurchaseComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseComboBrand.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseComboBrand.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseComboBrand.xss">
+      <DependentUpon>PurchaseComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseComboCategory.xsc">
+      <DependentUpon>PurchaseComboCategory.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseComboCategory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseComboCategory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseComboCategory.xss">
+      <DependentUpon>PurchaseComboCategory.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseComboItem.xsc">
+      <DependentUpon>PurchaseComboItem.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseComboItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseComboItem.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseComboItem.xss">
+      <DependentUpon>PurchaseComboItem.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseComboSupplier.xsc">
+      <DependentUpon>PurchaseComboSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseComboSupplier.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseComboSupplier.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseComboSupplier.xss">
+      <DependentUpon>PurchaseComboSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseDatewiseRpt.xsc">
+      <DependentUpon>PurchaseDatewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseDatewiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseDatewiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseDatewiseRpt.xss">
+      <DependentUpon>PurchaseDatewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseInvoicewiseRpt.xsc">
+      <DependentUpon>PurchaseInvoicewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseInvoicewiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseInvoicewiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseInvoicewiseRpt.xss">
+      <DependentUpon>PurchaseInvoicewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturn.xsc">
+      <DependentUpon>PurchaseReturn.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturn.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseReturn.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseReturn.xss">
+      <DependentUpon>PurchaseReturn.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboBrand.xsc">
+      <DependentUpon>PurchaseReturnComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboBrand.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseReturnComboBrand.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboBrand.xss">
+      <DependentUpon>PurchaseReturnComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboCategory.xsc">
+      <DependentUpon>PurchaseReturnComboCategory.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboCategory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseReturnComboCategory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboCategory.xss">
+      <DependentUpon>PurchaseReturnComboCategory.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboItem.xsc">
+      <DependentUpon>PurchaseReturnComboItem.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseReturnComboItem.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboItem.xss">
+      <DependentUpon>PurchaseReturnComboItem.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboSupplier.xsc">
+      <DependentUpon>PurchaseReturnComboSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboSupplier.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseReturnComboSupplier.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseReturnComboSupplier.xss">
+      <DependentUpon>PurchaseReturnComboSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnDatewiseRpt.xsc">
+      <DependentUpon>PurchaseReturnDatewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnDatewiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseReturnDatewiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseReturnDatewiseRpt.xss">
+      <DependentUpon>PurchaseReturnDatewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnInvoicewiseRpt.xsc">
+      <DependentUpon>PurchaseReturnInvoicewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnInvoicewiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseReturnInvoicewiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseReturnInvoicewiseRpt.xss">
+      <DependentUpon>PurchaseReturnInvoicewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnSupplierwiseRpt.xsc">
+      <DependentUpon>PurchaseReturnSupplierwiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseReturnSupplierwiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseReturnSupplierwiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseReturnSupplierwiseRpt.xss">
+      <DependentUpon>PurchaseReturnSupplierwiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseSupplierwiseRpt.xsc">
+      <DependentUpon>PurchaseSupplierwiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\PurchaseSupplierwiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseSupplierwiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\PurchaseSupplierwiseRpt.xss">
+      <DependentUpon>PurchaseSupplierwiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\Sales.xsc">
+      <DependentUpon>Sales.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\Sales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Sales.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\Sales.xss">
+      <DependentUpon>Sales.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesComboBrand.xsc">
+      <DependentUpon>SalesComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesComboBrand.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesComboBrand.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesComboBrand.xss">
+      <DependentUpon>SalesComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesComboCategory.xsc">
+      <DependentUpon>SalesComboCategory.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesComboCategory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesComboCategory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesComboCategory.xss">
+      <DependentUpon>SalesComboCategory.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesComboCustomerName.xsc">
+      <DependentUpon>SalesComboCustomerName.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesComboCustomerName.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesComboCustomerName.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesComboCustomerName.xss">
+      <DependentUpon>SalesComboCustomerName.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesComboItem.xsc">
+      <DependentUpon>SalesComboItem.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesComboItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesComboItem.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesComboItem.xss">
+      <DependentUpon>SalesComboItem.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesCustomerwiseRpt.xsc">
+      <DependentUpon>SalesCustomerwiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesCustomerwiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesCustomerwiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesCustomerwiseRpt.xss">
+      <DependentUpon>SalesCustomerwiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesDatewiseRpt.xsc">
+      <DependentUpon>SalesDatewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesDatewiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesDatewiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesDatewiseRpt.xss">
+      <DependentUpon>SalesDatewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesInvoicewiseRpt.xsc">
+      <DependentUpon>SalesInvoicewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesInvoicewiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesInvoicewiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesInvoicewiseRpt.xss">
+      <DependentUpon>SalesInvoicewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturn.xsc">
+      <DependentUpon>SalesReturn.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturn.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReturn.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesReturn.xss">
+      <DependentUpon>SalesReturn.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnComboBrand.xsc">
+      <DependentUpon>SalesReturnComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnComboBrand.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReturnComboBrand.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesReturnComboBrand.xss">
+      <DependentUpon>SalesReturnComboBrand.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnComboCategory.xsc">
+      <DependentUpon>SalesReturnComboCategory.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnComboCategory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReturnComboCategory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesReturnComboCategory.xss">
+      <DependentUpon>SalesReturnComboCategory.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnComboItem.xsc">
+      <DependentUpon>SalesReturnComboItem.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnComboItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReturnComboItem.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesReturnComboItem.xss">
+      <DependentUpon>SalesReturnComboItem.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnCustomerwiseRpt.xsc">
+      <DependentUpon>SalesReturnCustomerwiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnCustomerwiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReturnCustomerwiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesReturnCustomerwiseRpt.xss">
+      <DependentUpon>SalesReturnCustomerwiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnDatewiseRpt.xsc">
+      <DependentUpon>SalesReturnDatewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnDatewiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReturnDatewiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesReturnDatewiseRpt.xss">
+      <DependentUpon>SalesReturnDatewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnInvoicewiseRpt.xsc">
+      <DependentUpon>SalesReturnInvoicewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SalesReturnInvoicewiseRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesReturnInvoicewiseRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SalesReturnInvoicewiseRpt.xss">
+      <DependentUpon>SalesReturnInvoicewiseRpt.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SupplierMaster.xsc">
+      <DependentUpon>SupplierMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SupplierMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SupplierMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SupplierMaster.xss">
+      <DependentUpon>SupplierMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SupplierPurchaseEntries.xsc">
+      <DependentUpon>SupplierPurchaseEntries.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SupplierPurchaseEntries.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SupplierPurchaseEntries.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SupplierPurchaseEntries.xss">
+      <DependentUpon>SupplierPurchaseEntries.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SupplierReceiptEntries.xsc">
+      <DependentUpon>SupplierReceiptEntries.xsd</DependentUpon>
+    </None>
+    <None Include="DatasetList\SupplierReceiptEntries.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SupplierReceiptEntries.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatasetList\SupplierReceiptEntries.xss">
+      <DependentUpon>SupplierReceiptEntries.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,109 @@
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Login.resources
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainTerminal.resources
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.BrandMaster.resources
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CategoryMaster.resources
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.DimensionMaster.resources
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemMaster.resources
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierMaster.resources
+C:\Users\NIKHIL PATEL\documents\visual studio 2012\Projects\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Purchase.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\FoxLearn.License.dll
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AboutUs.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.BrandMaster.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CashTransaction.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CategoryMaster.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CustomerAccount.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPurchaseInvoice.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPurchaseReturnInvoice.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintSalesInvoice.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintSalesReturnInvoice.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesNew.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CustomerMaster.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemMaster.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemwiseStockDetail.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Login.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainTerminal.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Purchase.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReportDatewise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReportInvoicewise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReportSupplierwise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReturn.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReturnReportDatewise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReturnReportInvoicewise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReturnReportSupplierwise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReportDatewise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReportInvoicewise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReturn.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReturnReportDatewise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReturnReportInvociewise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ShortcutKeys.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SUPERAbout.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SUPERGenerate.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SUPERMain.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierAccount.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierMaster.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReportCustomerwise.resources
+E:\NIKHIL\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReturnCustomerwise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe.config
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.exe
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\bin\Debug\InventoryManagementSystem.pdb
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csprojResolveAssemblyReference.cache
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.AboutUs.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.BrandMaster.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CashTransaction.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CategoryMaster.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CustomerAccount.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPurchaseInvoice.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintPurchaseReturnInvoice.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintSalesInvoice.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PrintSalesReturnInvoice.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesNew.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.CustomerMaster.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemMaster.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ItemwiseStockDetail.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Login.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.MainTerminal.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Properties.Resources.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.Purchase.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReportDatewise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReportInvoicewise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReportSupplierwise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReturn.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReturnReportDatewise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReturnReportInvoicewise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.PurchaseReturnReportSupplierwise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReportCustomerwise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReportDatewise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReportInvoicewise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReturn.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReturnCustomerwise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReturnReportDatewise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SalesReturnReportInvociewise.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.ShortcutKeys.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SUPERAbout.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SUPERGenerate.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SUPERMain.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierAccount.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.SupplierMaster.resources
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.csproj.GenerateResource.Cache
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.cache
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\RdlCompile.compiled
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.exe
+E:\NIKHIL\c#\InventorySystem BACKUP\22-6\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\InventoryManagementSystem.pdb
